@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-
-function App() {
+import "tailwindcss/tailwind.css"
+import { Layout, Typography, Space } from 'antd';
+import { Ferraris,Home,NavBar,SUV,Tesla,LAMBOS } from './components';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="navbar">
+        <NavBar/>
+      </div>
+      <div className="main">
+        <Layout>
+          <div className="routes">
+            <Routes>
+              <Route path="/" element={<Home />}/>
+              <Route path="/ferraris" element={<Ferraris />}/>
+              <Route path="/suv" element={<SUV />}/>
+              <Route path="/tesla" element={<Tesla />}/>
+              <Route path="/lambos" element={<LAMBOS />}/>
+            </Routes>
+          </div>
+        </Layout>
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
