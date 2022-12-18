@@ -1,3 +1,23 @@
+      A Car Showroom Web Application
+
+ https://user-images.githubusercontent.com/72704839/208300682-2fc0c095-ce78-45b5-aa50-148e7b00776f.mp4
+
+Basically i tried out the card functionalities in react using some third party CSS plugin like Material UI and i wanted to try out the React Router component that is  why i made this application in order to implement the things which i learnt initially basically the application has only access to lambos others i haven't added since i was just trying to see what i learnt so it is like a front end developed there is no connection with the backend . Clone and run the code to have a clear overview.
+ 
+ 
+ If Any Doubts,
+ 
+ Email me at => amaanullah60@gmail.com
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
